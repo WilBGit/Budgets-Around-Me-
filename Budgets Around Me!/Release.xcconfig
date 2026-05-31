@@ -1,0 +1,6 @@
+// API keys — injected at build time from environment variables
+// Set these in your Xcode scheme environment or CI/CD secrets
+// NEVER commit actual keys to source control
+
+OPENAI_API_KEY =
+GOOGLE_PLACES_API_KEY =

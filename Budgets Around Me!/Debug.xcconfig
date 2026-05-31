@@ -1,0 +1,5 @@
+// Development API keys — set these via: export OPENAI_API_KEY=sk-xxx GOOGLE_PLACES_API_KEY=AIza-xxx
+// Or add them in Xcode > Scheme > Run > Arguments > Environment Variables
+
+OPENAI_API_KEY =
+GOOGLE_PLACES_API_KEY =

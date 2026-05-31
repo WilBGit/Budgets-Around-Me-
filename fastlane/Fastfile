@@ -1,0 +1,20 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Build and upload to App Store"
+  lane :release do
+    build_app(
+      workspace: nil,
+      project: "Budgets Around Me!.xcodeproj",
+      scheme: "Budgets Around Me!",
+      export_method: "app-store",
+      output_directory: "./build",
+      output_name: "BudgetsAroundMe"
+    )
+    upload_to_app_store(
+      force: true,
+      submit_for_review: true,
+      automatic_release: true
+    )
+  end
+end

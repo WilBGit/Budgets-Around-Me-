@@ -1,0 +1,32 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+DerivedData/
+build/
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# API Keys — NEVER commit
+.env.xcconfig
+*.env
+
+# CocoaPods (if used)
+Pods/
+
+# SPM
+.build/
+
+# macOS
+.DS_Store
+*.swp
+*~
+._*
+._*
+
+
+# Secrets
+OPENAI_API_KEY=*
+GOOGLE_PLACES_API_KEY=*

@@ -1,0 +1,4 @@
+app_identifier(ENV.fetch("APP_IDENTIFIER", "com.example.budgetaround"))
+apple_id(ENV.fetch("FASTLANE_USER", "your-apple-id@example.com"))
+itc_team_id(ENV.fetch("ITC_TEAM_ID", "YOUR_ITC_TEAM_ID"))
+team_id(ENV.fetch("APPLE_TEAM_ID", "YOUR_APPLE_TEAM_ID"))
