@@ -40,7 +40,7 @@ The app should also request location only when the nearby-discovery feature need
 
 The app is intended to work with:
 
-https://github.com/example-org/budgets-proxy
+https://github.com/WilBGit/budgets-proxy
 
 That service keeps provider credentials server-side and exposes authenticated application endpoints for AI and place discovery.
 
